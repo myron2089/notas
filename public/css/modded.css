@@ -1,0 +1,123 @@
+/* --  CSS MODIFICADO --*/
+
+/* Etiquetas de error, cuando se valida un formulario */
+
+.errors {
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		-o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		background: rgba(215, 40, 40, 1);
+		box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+		color: #ffffff;
+		display: none;
+		font-size: 14px;
+		margin-top: -80px;
+		margin.right: 0;
+		padding: 10px;
+		position: absolute;
+		-moz-border-radius: 0px 5px 0px 5px;
+		-webkit-border-radius: 0px 5px 0px 5px;
+		border-radius: 3px 5px 2px 5px;
+}
+
+.errors::after {
+    content: '';
+    color: rgba(215, 40, 40, 1);
+    border-top: 10px solid rgba(215, 40, 40, 1);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    
+    position: absolute;
+    right: 0;
+    top: 38px;
+}
+
+/* Fin etiquetas de error */
+
+
+/* DROPDOWNLISTS */
+
+/*TEXTBOX PARA EDITAR/INGRESAR NOTAS*/
+.txt-nota
+{
+	width: 100%;
+	height: 100%;
+	text-align: right;
+	background-color:  transparent;
+	border: 0;
+}
+
+.txt-nota:focus
+{
+	height: 150%;
+	margin-top:-5px;
+	border: 1px #000000 solid;
+	background-color: #FFFFFF;
+}
+
+/*Error cuando se ingresa un numero mayor a 100*/
+.input-edit-e{
+	border: 1px rgba(215, 40, 40, 0.9) solid;
+}
+.input-edit-e:focus{
+	border: 1px rgba(215, 40, 40, 0.9) solid;
+	outline: 0;
+}
+
+/*Bajar algunos botones*/
+.btn-d
+{
+	margin-top: 25px !important;
+}
+
+.col-md-6{
+	border: solid 0px #000000;
+}
+
+.dd-modded{
+	width: 100% !important;
+}
+
+.select2-container .select2-choice:focus {
+  border: 1px solid #999 !important;
+  box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06) !important;
+}
+
+.select2
+{
+	width: 100% !important;
+}
+/*FIN DROPDOWNLISTS*/
+
+/*DATATABLES*/
+
+.dataTables_filter input 
+{ 
+	width: 300px !important;
+	top: 50px !important;
+}
+.datatables_filter label { 
+   top: 50px !important;
+} 
+ .dataTables_paginate { 
+           float: left !important; 
+           text-align: left !important; 
+        } 
+/*FIN DATATABLES*/
+
+.widget-user-header
+{
+	height: 150px !important;
+}
+@media screen and (max-width: 800px) {
+.dd-modded{
+	width: 100% !important;
+}
+
+.select2
+{
+	width: 100% !important;
+}
+
+
+}
